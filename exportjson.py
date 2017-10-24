@@ -14,7 +14,7 @@ try:
 except MySQLdb.Error,msg:  
     print "MySQL connet error %d: %s" %(msg.args[0],msg.args[1])
 tableName = raw_input('please input the table name which will be parse to json... :')
-    
+#raw_input不支持3.0
   
 def tableToJson(table):
     #获取表字段

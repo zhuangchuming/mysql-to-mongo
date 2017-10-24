@@ -6,3 +6,5 @@
 2、运行Python文件： python exportJson.py； 
 3、根据提示输入需要到处的数据库下的表名
 
+
+目前不支持python3.0
